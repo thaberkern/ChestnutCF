@@ -13,8 +13,6 @@ namespace Chestnut
 
         public ResolveType resolveType { get; set; }
 
-        public InjectBy injectBy { get; set; }
-
         protected Array parameterInjectByConstructor;
 
         protected Array parameterInjectBySetter;
@@ -78,7 +76,7 @@ namespace Chestnut
             Type[] types = new Type[parameters.Length];
             for (int i = 0; i < parameters.Length; i++)
             {
-                types[i] = parameters[i].GetType();
+                types[i] = parameters.GetValue(i).GetType();
             }
 
             return types;
