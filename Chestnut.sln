@@ -6,7 +6,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{90C298D6-F511-44A0-A835-471F00211E61}"
 	ProjectSection(SolutionItems) = preProject
 		Chestnut.vsmdi = Chestnut.vsmdi
-		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChestnutTests", "ChestnutTests\ChestnutTests.csproj", "{D5EE90CD-F1A7-415C-A579-2D50C4F88E24}"
